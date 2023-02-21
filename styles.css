@@ -1,4 +1,4 @@
-/* Universal Styling */
+/*   ************ Universal Styling ************ */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
 }
 
 
-/*Broad layout styles */ 
+/*  ************Broad layout styles  ************ */ 
 body {
     background: url('../assets/full-bloom.webp');
     margin: 0;
@@ -16,7 +16,8 @@ body {
 }
 
 header, footer {
-    background-color: white;
+    background-color: rgb(94, 172, 193);
+    box-shadow: 1px 1px 6px rgb(113, 113, 113);
 }
 
 main, nav, aside {
@@ -31,11 +32,8 @@ h3 {
     font-family: 'Rock Salt', cursive;
 }
 
-section, aside {
-    background-color: white;
-}
 
-/*Header/Navigation styles*/
+/*  ************ Header/Navigation styles*********** */
 
 header {
     border-bottom: 1px solid black;
@@ -48,14 +46,22 @@ header {
     align-items: center;
 }
 
+h1 {
+    margin-right: auto;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px rgb(104, 104, 104);
+}
+
 nav a {
     text-decoration: none;
     font-weight: bold;
     font-family: 'Rock Salt', cursive;
-    color: rgb(0, 115, 186);
+    color: rgb(255, 255, 255);
     padding: 0 15px;
     font-size: 15px;
     margin: 0 5px;
+    text-shadow: 1px 1px 3px rgb(104, 104, 104);
 }
 
 .link, .dividerLink {
@@ -64,10 +70,18 @@ nav a {
 
 .dividerLink {
     border-left: 2px solid rgb(123, 123, 123);
+    padding: 0 0 0 30px;
 }
 
 
-/*Main styles */
+
+/*   ************ Main styles ************ */
+
+section, aside {
+    background-color: white;
+    box-shadow: 1px 1px 6px rgb(151, 151, 151);
+}
+
 
 /* -----About Me ------*/
 .container {
@@ -87,11 +101,6 @@ section {
     line-height: 140%;
 }
 
-h1 {
-    margin-right: auto;
-    padding-left: 20px;
-    color: rgb(0, 115, 186);
-}
 
 h2 {
     font-size: 22px;
@@ -104,7 +113,6 @@ h3 {
     text-align: center;
     padding: 0 0 10px 0;
 }
-
 
 
 /* -------Aside  ---------*/
@@ -134,7 +142,7 @@ aside img {
 
 
 
-/* Footer styles */
+/*  ************ Footer styles   ************ */
 
 footer {
     text-align: center;
