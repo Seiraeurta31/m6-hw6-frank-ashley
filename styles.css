@@ -80,6 +80,7 @@ nav a {
 section, aside {
     background-color: white;
     box-shadow: 1px 1px 6px rgb(151, 151, 151);
+    border-radius: 8px;
 }
 
 
